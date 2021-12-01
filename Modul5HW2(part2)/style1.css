@@ -1,0 +1,35 @@
+p {
+    color:green;
+}
+
+a[href^="https"]{
+    color:red;
+}
+
+.list :nth-child(4) a{
+    color:green;
+}
+
+ul + p {
+    font-size: 26px;
+}
+
+div.text-box>:nth-child(1){
+    color: pink;
+}
+
+#greycol{
+    color: grey;
+}
+
+.text-box div p{
+    color:red;
+}
+
+div.text-box>:nth-child(7){
+    color: green;
+}
+
+.yellow{
+    color: yellow;
+}
